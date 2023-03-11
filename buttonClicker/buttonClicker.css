@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: snow;
+}
+
+.container {
+    border: none;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+    margin: auto;
+    border: none;
+    background-color: gray;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+.search {
+    height: 30px;
+    width: 350px;
+    border: 3px solid black;
+}
+
+.btn-login {
+    border: px solid black;
+    width: 60px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.row1 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 1022px;
+    margin: auto;
+}
+
+.col-left, 
+.col-right {
+    color: rgb(224, 210, 210);
+    margin: 10px;
+}
+
+.col-left {
+    width: 70%;
+}
+.col-right {
+    border: 2px solid black;
+    color: black;
+    width: 30%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-inner-descriptive,
+.bottom-box{
+    display: flex;
+    color: black;
+    border: 2px solid black;
+    width: 90%;
+    height: 220px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding-left: 20px;
+}
+
+.left,
+.left-bottom{
+    margin: 5px;
+    text-align: center;
+}
+
+.definition-text {
+    margin: auto;
+    font-size: xx-large;
+}
+
+button {
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px black;
+    height: auto;
+    margin-bottom: 4px;
+
+}
+
+.btn-add {
+    width: 200px;
+    height: 40px;
+    background-color: forestgreen;
+    color: black;
+    font-size: larger;
+}
+
+.top--like-btn,
+.btn-like-top {
+    height: 30px;
+    width: 90px;
+    background-color: orange;
+}
+
+a {
+    color: blue;
+}
+
+p {
+    margin: 5px;
+}
